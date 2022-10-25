@@ -17,10 +17,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "") 
-API_HASH = os.environ.get("API_HASH", "") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "")
+API_ID = os.environ.get("API_ID", "16401923") 
+API_HASH = os.environ.get("API_HASH", "3faea4a96156fd1768b180d0aeacf099") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "5442110047:AAFuw1I7jdMDGqcbV8t-KiLdLNieXfr9i2E")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Mukesh01:chuprah@cluster0.dz9iv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
